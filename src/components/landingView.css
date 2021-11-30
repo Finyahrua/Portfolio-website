@@ -1,0 +1,51 @@
+.landing {
+  display: flex;
+  height: 100vh;
+  background-color: #eee;
+}
+.landing-left {
+  flex: 1;
+}
+.landing-right {
+  flex: 1;
+}
+.landing-left-wrapper {
+  padding: 50px;
+}
+.name-intro {
+  font-size: 25px;
+  font-weight: 300;
+}
+.name {
+  font-size: 40px;
+}
+.skills {
+  height: 50px;
+  overflow: hidden;
+}
+.skills-wrapper {
+  height: 100%;
+  animation: show 12s ease-in-out infinite;
+}
+@keyframes show {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-150px);
+  }
+  75% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(-250px);
+  }
+}
+.skills-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #67b5d6;
+  display: flex;
+  align-items: center;
+}
