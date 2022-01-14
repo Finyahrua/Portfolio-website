@@ -49,3 +49,6 @@
   display: flex;
   align-items: center;
 }
+.landing-right{
+  background-color: rgb(141, 57, 57);
+}
